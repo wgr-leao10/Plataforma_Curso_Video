@@ -1,0 +1,6 @@
+print("=-" * 25)
+print("Antecessor e Sucessor Númerico")
+print("=-" * 25)
+n = int(input("Digite Um Número: "))
+print(f" Analisando o Valor {n}, seu antecessor é {n - 1}, e o sucessor é {n + 1}")
+print("=-" * 25)
