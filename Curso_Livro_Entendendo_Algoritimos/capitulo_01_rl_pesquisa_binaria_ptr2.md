@@ -1,4 +1,4 @@
-## Realatorio do Código
+## Relatório do Código
  A descrição e a explicação completa esta na pagina 26 e 27 do livro, mas a funcão pesquisa binária funciona assim:
 
 1. `minha_lista = [1, 3, 5, 7, 9]`: Aqui, estamos criando uma lista chamada `minha_lista` que contém os elementos `[1, 3, 5, 7, 9]`. Esta lista está ordenada em ordem crescente.
