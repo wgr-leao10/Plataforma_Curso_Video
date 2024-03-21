@@ -1,0 +1,5 @@
+print("-=" * 15)
+print("Analisando Cidade de Origem")
+print("-=" * 15)
+cidade = str(input("Digite a Cidade: "))
+print("Guarulhos" in cidade)
