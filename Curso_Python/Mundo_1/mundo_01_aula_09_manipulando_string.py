@@ -25,6 +25,7 @@ print(frase.capitalize())  # Só as primneras letras maisculas
 print(frase.title())  # Analiosa os blocos e coloca as primeras maiúsculas
 print(frase.strip())  # Elimina os espaços do inicio e do final
 print(frase.rstrip)  # Elimina os espaços do do lado direito
+print(frase.rstrip())  # Elimina os espaços do do lado direito
 print(frase.lstrip())  # Elimina os espaços do do lado esquerdo
 
 # Divisão
