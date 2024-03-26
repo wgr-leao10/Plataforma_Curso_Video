@@ -1,0 +1,6 @@
+print("-=" * 15)
+print("Analisando Frase")
+print("-=" * 15)
+frase = str(input("Digite Uma Frase: "))
+print("A letra A Aprece ", frase.count('A'))
+print(" A Primeiroa letra A apreceu na posição", frase.find('A'))
