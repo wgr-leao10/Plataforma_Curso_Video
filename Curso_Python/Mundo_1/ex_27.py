@@ -1,0 +1,8 @@
+print("-=" * 15)
+print("Analisando Nome")
+print("-=" * 15)
+nome = str(input("Digite Seu Nome: "))
+print("Muito Prazer em te Conhecer..")
+tamanho_do_nome = len(nome)
+print("O Seu primeiro Nome é: ", nome.split()[0])
+print("O Seu Último Nome é:  ", nome.split())
