@@ -13,6 +13,7 @@ print(frase[9::3])  # Fatiamento quando nao sabe o final com intervalo
 print(len(frase))  # Comprimento da string
 print(frase.count("o"))  # conta quantas vezes repetio a letra " o "
 print(frase.count("o", 0, 13))  # conta as repeticoes a letra "o",no intervalo
+print(frase.rfind("deo"))  # aqui indcia se a frase a diretira inicia string
 print(frase.find("deo"))  # aqui indcia onde inicia a string
 print(frase.find("Androide"))  # quando não encontra ele devolve -1.
 print("curso" in frase)
