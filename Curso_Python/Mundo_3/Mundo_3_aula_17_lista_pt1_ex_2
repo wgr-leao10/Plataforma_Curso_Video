@@ -1,0 +1,11 @@
+valores = []  # aqui também pode ser list()
+# valores.append(5)
+# valores.append(9)
+# vvalores.append(4)
+#  for v in valores:  # aqui a forma mais simples
+#  print(f'Os valores {v}..', end='')
+
+for cont in range(0, 5):
+    valores.append(int(input("Digite um Valor: "))) 
+for c, v in enumerate(valores):  # Aqui encontra tamto o valor como a chave
+    print(f'Na posição {c} encontrei o valor {v}')
