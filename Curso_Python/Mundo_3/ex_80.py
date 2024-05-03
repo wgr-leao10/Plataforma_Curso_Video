@@ -12,5 +12,6 @@ while i != 'N':
     i = " "
     while i not in 'SN':
         i = str(input("Deseja continuar[S/N]")).strip().upper()[0]
+numeros = sorted(numeros)
 print(f'Os numeros que vc digitou{numeros}')
 print("-" * 40)
