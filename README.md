@@ -4,10 +4,10 @@
 # Curo completo de Python #
 
 ## Modulos 1 
-*Introdução ao mundo da Programação
-*Primeiros Passos Com o Python
-*Tratando Dados e Fazendo Contas
-*Usando Módulos
+* Introdução ao mundo da Programação
+* Primeiros Passos Com o Python
+* Tratando Dados e Fazendo Contas
+* Usando Módulos
 Condições em Python (if..else)
 # Modulos 2 #
 Introdução ao Módulo 2
