@@ -3,7 +3,7 @@
  
 # Curo completo de Python #
 
-# Modulos 1 #
+## Modulos 1 
 *Introdução ao mundo da Programação
 *Primeiros Passos Com o Python
 *Tratando Dados e Fazendo Contas
