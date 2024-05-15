@@ -1,7 +1,7 @@
-# Plataforma_Curso_Video #
+# Plataforma_Curso_Video 
  Aqui contém os arquivos de todos os cursos da plataforma separado por nome, com os exercios resolvidos.
  
-# Curo completo de Python #
+# Curo completo de Python 
 
 ## Modulos 1 
 * Introdução ao mundo da Programação
@@ -9,15 +9,15 @@
 * Tratando Dados e Fazendo Contas
 * Usando Módulos
 Condições em Python (if..else)
-# Modulos 2 #
-Introdução ao Módulo 2
-Condições em Python (if..else..elif)
-Estruturas de repetição em Python (for)
-Estruturas de repetição em Python (while)
-# Modulos 3 #
-Tuplas em Python
-Listas em Python
-Dicionários em Python
-Funções em Python
-Modularização em Python
-Tratamento de Erros em Python
+# Modulos 2 
+* Introdução ao Módulo 2
+* Condições em Python (if..else..elif)
+* Estruturas de repetição em Python (for)
+* Estruturas de repetição em Python (while)
+# Modulos 3 
+* Tuplas em Python
+* Listas em Python
+* Dicionários em Python
+* Funções em Python
+* Modularização em Python
+* Tratamento de Erros em Python
