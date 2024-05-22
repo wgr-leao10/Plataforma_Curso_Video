@@ -1,17 +1,17 @@
 print("-" * 40)
 print(f'{"LISTA ORDENADA SEM REPETICOA EX_80":^40}')
 print("-" * 40)
-numeros = list()
-while i != 'N':
-    n = int(input("Digite um valor: "))
-    if n not in numeros:
-        numeros.append(n)
+lista = []
+for c in range(0, 5):
+    n = int(input("Digite Um Valor: "))
+    if c == 0 or n > lista[-1]:
+        lista.append(n)
     else:
-        print('Número Duplicado..')
-    i = " "
-    while i not in 'SN':
-        i = str(input("Deseja continuar[S/N]")).strip().upper()[0]
-numeros = sorted(numeros)
-print(f'Os numeros que vc digitou{numeros}')
+        pos = 0
+        while pos < len(lista):
+            if n <= lista(pos):
+                lista.insert(pos, n)
+                break
+            pos += 1
 print("-" * 40)
-# corrigir o final
+print(f'Os Valores digitados em ordem foram {lista}')
