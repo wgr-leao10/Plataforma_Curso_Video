@@ -1,7 +1,6 @@
 print("-" * 40)
 print(f'{"LISTA ORDENADA SEM REPETICOA EX_80":^40}')
 print("-" * 40)
-i = 0
 numeros = list()
 while i != 'N':
     n = int(input("Digite um valor: "))
