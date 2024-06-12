@@ -14,5 +14,7 @@ def pesquisa_binaria(lista, item):
 
 
 minha_lista = [1, 3, 5, 7, 9]
+minha_lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print("Posição do Elemento", pesquisa_binaria(minha_lista, 3))
 print("Posição do Elemento", pesquisa_binaria(minha_lista, -1))
+print("Posição do Elemento", pesquisa_binaria(minha_lista, 5))
