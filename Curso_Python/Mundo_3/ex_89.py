@@ -22,5 +22,14 @@ for i, j in enumerate(dados):
             break
         if opc <= len(dados) - 1:  # Ver o errro 
             print(f'Notas de {dados[opc][0]} são {dados[opc][1]}')
+while True:
+    opc = int(input("Mostrar nota de qual aluno(999 interompe): "))
+    if opc == 999:
+        print("FINALIZADO")
+        break
+    if opc <= len(dados) - 1:
+        print(f'Notas de {dados[opc][0]} são {dados[opc][1]}')
+    else:
+        print('Indice Iválido')
 print("**** Volte Sempre****")
 print("-" * 50)
