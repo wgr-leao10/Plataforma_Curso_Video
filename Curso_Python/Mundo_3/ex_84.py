@@ -28,6 +28,7 @@ while i != 'N':
         i = str(input('Deseja Continuar [S/N]')).strip().upper()[0]
     totalcadastro += 1
 print(f'Ao todo as pessoas cadastrados{cadastro}')
+print(f'Ao todo as pessoas cadastrads são: {cadastro}')
 print(f'A todo, você cadastrou {totalcadastro} pessoas')
 print(f'O maior peso foi {maiorpeso}')
 print(f'O menor peso foi {menorpeso}')
