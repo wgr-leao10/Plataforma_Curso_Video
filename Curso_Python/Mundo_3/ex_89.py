@@ -15,13 +15,17 @@ print(f"{"N°":<4}{"Nome":<10}{"Média":>8}")
 print(('-' * 26))
 for i, j in enumerate(dados):
     print(f"{i:<4}{j[0]:<10}{j[2]:>8.1f}")
+
     while True:
         opc = str(input("Mostrar nota de qual aluno(999 interompe): "))
+        opc = int(input("Mostrar nota de qual aluno(999 interompe): "))
         if opc == 999:
             print("FINALIZADO")
             break
         if opc <= len(dados) - 1:  # Ver o errro 
+        if 0 <= opc < len(dados):
             print(f'Notas de {dados[opc][0]} são {dados[opc][1]}')
+
 while True:
     opc = int(input("Mostrar nota de qual aluno(999 interompe): "))
     if opc == 999:
