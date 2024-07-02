@@ -8,5 +8,7 @@ valores = []  # aqui também pode ser list()
 for cont in range(0, 5):
     valores.append(int(input("Digite um Valor: "))) 
     valores.append(int(input("Digite um Valor: ")))
+    valores.append(int(input("Digite um Valor: ")))
 for c, v in enumerate(valores):  # Aqui encontra tamto o valor como a chave
     print(f'Na posição {c} encontrei o valor {v}')
+print(valores)
