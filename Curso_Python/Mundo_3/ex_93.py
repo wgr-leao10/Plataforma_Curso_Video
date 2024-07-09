@@ -1,0 +1,26 @@
+print("-" * 40)
+print(f'{"Cadastro de Joagador De Futebol EX_93":^40}')
+print("-" * 40)
+jogador = dict()
+jogador['Nome'] = str(input("Nome do Jogador: "))
+partidas = int(input(f'Quantas partidas {jogador["Nome"]} jogou? '))
+jogador['partida 0'] = int(input('Qauntos Gols na Partida 0? '))
+jogador['partida1'] = int(input("Quantos Gols na Partida1? "))
+jogador['partida2'] = int(input("Quantos Gols Na partida2? "))
+jogador['partida3'] = int(input("Quantos Gols Na partida3? "))
+jogador['partida4'] = int(input("Quantos Gols Na partida4? "))
+jogador['total Gols'] = jogador["partida 0"] + jogador["partida1"] + jogador["partida2"] + jogador["partida3"] + jogador["partida4"]
+print("=-=" * 40)
+print(jogador)
+
+print("=-=" * 40)
+print(f' O campo nome tem valor {jogador["Nome"]}')
+print(f'O campo gols tem valor{jogador.values()}')
+print(f'O campo total tem valor {jogador["total Gols"]}')
+
+print("=-=" * 40)
+print(f'O jogador {nome} Jogou {partidas} partidas.')
+for i, j in jogador.items():
+    print(f'=> Na {i}, fez {j} Gols.')
+print(f'Foi um total de {jogador["total Gols"]} Gols.')
+print("=-=" * 40)
