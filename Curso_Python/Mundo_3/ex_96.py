@@ -2,13 +2,8 @@ def titulo(txt):
     print("-" * 40)
     print(txt)
     print("-" * 40)
-    tam = len(txt) + 4
-    print("-" * tam)
-    print(f'  {txt}')
-    print("-" * tam)
 
 
-titulo((f'{"Contole de terrenos":^40}'))
 titulo((f'{"Contole de terrenos Ex_96":^40}'))
 
 
