@@ -1,4 +1,3 @@
-from random import randint
 from time import sleep
 
 
@@ -13,7 +12,7 @@ titulo((f'{"Função que descobri o Maior EX_99":^40}'))
 
 def maior(*num):
     cont = maior = 0
-    print(f'\n Analisando os Valores Passados...')
+    print("\n Analisando os Valores Passados...")
     for valor in num:
         print(f'{valor}', end=" ", flush=True)
         sleep(0.5)
