@@ -10,13 +10,14 @@ titulo((f'{"Função Votar Ex_101":^40}'))
 def votar(ano_nacimento):
     from datetime import datetime
     ano_atual = datetime.now().year
-    return ano_atual- ano_nacimento
+    idade = ano_atual - ano_nacimento
+    if idade < 16:
+        return f'Com {idade} anos:NEGATO'
+    elif 16 <= idade < 18 or idade >= 65:
+        return f'Com {idade} anos: OPCIONAL'
+    else:
+        return f'Com {idade} anos: OBRIGATóRIO'
 
 
-idade = votar(ano_nacimento = int(input("Qual o ano do seu nascimento?:")))
-if idade < 16:
-    print(f'Com{idade} anos:NEGATO')
-elif 16 <= idade < 18 or idade >= 65:
-    print(f'Com {idade} anos: OPCIONAL')
-else:
-    print(f'Com {idade} anos: OBRIGATóRIO')
+nasc = int(input("Qual o ano do seu nascimento?:"))
+print(votar(nasc))
