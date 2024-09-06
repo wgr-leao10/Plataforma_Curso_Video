@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando Com DOM</title>
+    <style>
+        body {
+            background-color: rgb(66, 24, 193);
+            color: azure;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando os estudos Com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript </p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        /*Aqui seleção por marca, como pode ter mais de um elemento defe-se identificador*/
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var corpo = window.document.body
+        /*Aqui seria a forma mais simples para acessar um elemento*/
+        window.document.write('Está escrito assim: ' + p1.innerHTML)
+        p1.style.color = 'black'
+        corpo.style.background = "blue"
+        /*Quando temos muitas div uma das formas usadas para identificar seria o ID*/
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou Aguardando'
+        var d = window.document.getElementsByName('msg')[0]
+        d.innerText = 'olá'
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+    </script>
+</body>
+</html>
