@@ -1,7 +1,7 @@
 # Plataforma_Curso_Video 
  Aqui contém os arquivos de todos os cursos da plataforma separado por nome, com os exercios resolvidos.
  
-## Curo completo de Python 
+## Curso completo de Python 
 
 ### Módulo 1 
 * Introdução ao mundo da Programação
